@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Form Registrasi</title>
+  </head>
+  <body>
+    <center>
+      <h1>Form Pendaftaran Organisasi/Club</h1>
+      <h2>SMAKNIS Cianjur</h2>
+    </center>
+    <hr />
+    <form action="index.html">
+      <table>
+        <tr>
+          <td><label for="nama">Nama Lengkap :</label></td>
+          <td><input type="text" name="nama" id="nama" size="29" /></td>
+        </tr>
+        <tr>
+          <td><label for="panggilan">Panggilan :</label></td>
+          <td><input type="text" name="panggilan" id="panggilan" /></td>
+        </tr>
+        <tr>
+          <td><label for="tgl"> Tanggal Lahir :</label></td>
+          <td><input type="date" name="" id="tgl" /></td>
+        </tr>
+        <tr>
+          <td><label for="kelas">Kelas :</label></td>
+          <td>
+            <input type="radio" name="kelas" id="sepuluh" /><label for="kelas">X</label> <input type="radio" name="kelas" id="sebelas" /><label for="kelas">XI</label> <input type="radio" name="kelas" id="duabelas" /><label for="kelas"
+              >XII</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><label for="jurusan">Jurusan :</label></td>
+          <td>
+            <select name="" id="jurusan">
+              <option value="">---</option>
+              <option value="">Akuntansi</option>
+              <option value="">Manajemen Bisnis</option>
+              <option value="">Multimedia</option>
+              <option value="">Rekayasa Perangkat Lunak</option>
+              <option value="">Teknik Komputer dan Jaringan</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="nokelas">Nomor Kelas :</label></td>
+          <td>
+            <select name="" id="nokelas">
+              <option value="">---</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">4</option>
+              <option value="">5</option>
+              <option value="">6</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="motivasi">Motivasi Hidup :</label></td>
+          <td><input type="text" name="" id="motivasi" size="29" /></td>
+        </tr>
+        <tr>
+          <td><label for="alasan">Alasan Bergabung :</label></td>
+          <td><textarea name="" id="alasan" cols="24" rows="1"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="tingkat">Tingkat Minat Bergabung :</label></td>
+          <td><input type="range" name="" id="tingkat" /></td>
+        </tr>
+        <tr>
+          <td><label for="foto">Foto :</label></td>
+          <td><input type="file" name="" id="foto" /></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="right"><input type="submit" value="Kirim" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
